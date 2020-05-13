@@ -1,0 +1,14 @@
+let nota = 10;
+console.log(nota);
+nota = 10.2;
+console.log(nota);
+console.log(typeof nota);
+console.log(nota.toFixed(2));
+console.log(nota.toExponential(2));
+// 10.toFixed(2);
+console.log(0.1 + 0.2);
+console.log(3 / 0);
+console.log('AgileCode' * 10);
+console.log(Math.floor(nota));
+console.log(Math.cos(1));
+console.log(Math.sin(1));
