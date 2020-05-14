@@ -1,0 +1,13 @@
+console.log(new Date());
+const today = new Date();
+console.log(today.getTime());
+let natal = new Date(1419465600000);
+console.log(natal);
+console.log(Date.parse('2014-12-25T10:30:00'));
+console.log(Date.parse('2014-12-25T10:30:00-03:00'));
+// console.log(Date.parse('12/25/2014'));
+// console.log(Date.parse('25/12/2014'));
+natal = new Date(2020, 11, 25, 10, 30, 0);
+console.log(natal.getFullYear());
+console.log(natal.getMonth());
+console.log(natal.getDay());
