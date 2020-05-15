@@ -5,12 +5,12 @@ function soma(a, b) {
 console.log(soma);
 console.log(soma(2, 2));
 
-const soma = (a, b) => a + b;
+soma = (a, b) => a + b;
 
 console.log(soma);
 console.log(soma(2, 2));
 
-const helloWorld = () => () => 'Hello World!';
+let helloWorld = () => () => 'Hello World!';
 
 console.log(helloWorld);
 console.log(helloWorld());
@@ -53,7 +53,7 @@ class Pessoa {
 console.log(new Pessoa('Pedro', 20));
 console.log(new Pessoa('Maria', 30));
 
-const helloWorld = () => {
+helloWorld = () => {
   const message = 'Hello World!';
   return () => message;
 }

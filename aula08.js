@@ -4,7 +4,7 @@ console.log(add());
 console.log(add());
 console.log(add());
 
-const itens = [];
+let itens = [];
 add = item => {
   itens.push(item);
   return itens;
@@ -14,7 +14,7 @@ console.log(add('B'));
 console.log(add('C'));
 console.log(add());
 
-const counter = {
+counter = {
   value: 0,
   add: () => this.value++,
 };
@@ -22,16 +22,16 @@ console.log(counter.add());
 console.log(counter.add());
 console.log(counter.add());
 
-const itens = {
-  value: [],
-  add: item => {
-    this.value.push(item);
-    return this.value;
-  }
-};
-console.log(itens.add('A'));
-console.log(itens.add('B'));
-console.log(itens.add('C'));
+// itens = {
+//   value: [],
+//   add: item => {
+//     this.value.push(item);
+//     return this.value;
+//   }
+// };
+// console.log(itens.add('A'));
+// console.log(itens.add('B'));
+// console.log(itens.add('C'));
 
 console.log(counter.add());
 counter.value = undefined;
@@ -44,7 +44,7 @@ const createCounter = () => {
   };
 };
 
-const counter = (() => {
+counter = (() => {
   let value = 0;
   const add = () => value++;
   const reset = () => {
