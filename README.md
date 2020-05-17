@@ -1,6 +1,10 @@
-# JavaScript
-
-![JavaScript](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/200px-Unofficial_JavaScript_logo_2.svg.png)
+<h1 align="center">
+<br>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/200px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript" width="120">
+<br>
+<br>
+JavaScript
+</h1>
 
 ## O que é
 
